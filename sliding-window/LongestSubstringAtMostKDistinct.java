@@ -7,7 +7,7 @@
 
 import java.util.*;
 
-public class LongestSubstringKDistinct {
+public class LongestSubstringAtMostKDistinct {
     public static int findLongestSubstring(String str, int k) {
         HashMap<Character, Integer> charFrequencyMap = new HashMap<Character, Integer>();
         int maxLength = 0;
